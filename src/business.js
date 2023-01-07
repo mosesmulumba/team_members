@@ -7,7 +7,7 @@ const BusinessCard =({name , passport, description})=> {
     
     <div className="container--all">
      
-      <img src={passport} alt="passport"  width="350px" height="400px"/>
+      <img src={passport} alt="passport"  width="400px" height="450px"/>
       <div className="back">
           <h2 className="header">{name}</h2>
           <h5 className="description"><em>{description}</em></h5>
@@ -20,13 +20,13 @@ const BusinessCard =({name , passport, description})=> {
         </div>
         <footer>
             <a href="+256-705722053" rel="PHONE" target="_blank">
-              <img src="phone-icon.jpg" alt="passport" className="phone-icon" />
+              <img src="phone.jpeg" alt="passport" className="phone-icon" />
             </a>
             <a href="mailto:mulumbamoses94@gmail.com" rel="e-mail">
-              <img src="email-icon2.jpg" alt="E-MAIL" className="email-icon" />
+              <img src="email.png" alt="E-MAIL" className="email-icon" />
             </a>
             <a href="9H73+FJH,Kampala" rel="location">
-              <img src="location-icon.jpg" alt="LOCATION" className="location-icon" />
+              <img src="location.png" alt="LOCATION" className="location-icon" />
             </a>
         </footer>
     </div>

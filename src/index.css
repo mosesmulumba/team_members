@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+.container--all img{
+  border-radius: 50%;
+}
 body {
   margin: 0px;
   font-size: 22px;
@@ -33,7 +36,7 @@ img{
   padding-top: 10px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
-  background-color: #000;
+  /*background-color: #000;*/
   height: 13.5rem;
   width:15rem;
   margin-left:0rem;
@@ -60,7 +63,7 @@ img{
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  font-family: poppins, serif;
+  font-family: sans-serif;
   color:#0492c2;
 }
 .default{
@@ -89,8 +92,8 @@ img{
 }
 footer{
   height:4.5rem;
-  background-color: #000;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #ccc;
+  font-family:sans-serif;
   width:15rem;
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
@@ -103,11 +106,7 @@ footer>a>img{
   width:3rem;
   margin-left:1rem;
   margin-right: 1rem;
-  background-color: #000;
-  color:#000;
-}
-footer>a>img:hover{
-  background-color: #000;
+  /*background-color: #000;*/
 }
 .top-header{
   width: 100;
@@ -124,6 +123,7 @@ footer>a>img:hover{
   margin-bottom: 0.5rem;
   padding-left: 1rem;
   background-color: #0492c2;
+  max-height: 16vh;
 }
 navbar>h2{
   font-size: 38px;
