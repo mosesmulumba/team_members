@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-const BusinessCard =({name , passport, description})=> {
+const BusinessCard =({name , passport, description , about })=> {
   
   return (
     
@@ -12,11 +12,7 @@ const BusinessCard =({name , passport, description})=> {
           <h2 className="header">{name}</h2>
           <h5 className="description"><em>{description}</em></h5>
           <h4 className="default">About Me</h4>
-              <p className="paragraph">I am a passionate researcher with a focus
-              on designing and programing Apps,platforms and sites.
-                  I am dediicated to helping people as i can and proving that
-                  technology is the future we all gat.
-              </p>
+              <p className="paragraph">{about}</p>
         </div>
         <footer>
             <a href="+256-705722053" rel="PHONE" target="_blank">
