@@ -6,7 +6,7 @@ export default function App(){
 
   return (
     <div className="App">
-      <BusinessCard  name="Engineer Bainomugisha" passport={"./Engineer.photo.png"}  description={"Project Lead"} />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      <BusinessCard  name="Engineer Bainomugisha" passport={"./Engineer.photo.png"}  description={"Project Lead"} about={"I am a passionate researcher with a focus on designing and programing Apps,platforms and sites.I am dediicated to helping people as i can and proving that technology is the future we all gat."} />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
       <BusinessCard  name="Alex Mwotil" passport={"./Alex.photo.png"} description={"Project Manager"} />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
       <BusinessCard  name="Wagaba Colins" passport={"./Colin.photo.png"} description={"Devops Engineer"} />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
       <BusinessCard  name="Inno Asiimwe" passport={"./Inno.photo.jpg"} description={"Devops Engineer"} />&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
